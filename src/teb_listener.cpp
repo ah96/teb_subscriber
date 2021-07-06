@@ -65,27 +65,27 @@ std::ofstream writer20;
 std::ofstream writer21;
 
 // output .csv files' names global variables
-std::string fn1 = "~/amar_ws/Dataset/clock.csv";
-std::string fn2 = "~/amar_ws/Dataset/odom.csv";
-std::string fn3 = "~/amar_ws/Dataset/cmd_vel.csv";
-std::string fn4 = "~/amar_ws/Dataset/teb_global_plan.csv";
-std::string fn5 = "~/amar_ws/Dataset/teb_local_plan.csv";
-std::string fn6 = "~/amar_ws/Dataset/teb_poses.csv";
-std::string fn7 = "~/amar_ws/Dataset/teb_markers.csv";
-std::string fn8 = "~/amar_ws/Dataset/current_goal.csv";
-std::string fn9 = "~/amar_ws/Dataset/obstacles.csv";
-std::string fn10 = "~/amar_ws/Dataset/via_points.csv";
-std::string fn11 = "~/amar_ws/Dataset/local_costmap_data.csv";
-std::string fn12 = "~/amar_ws/Dataset/local_costmap_info.csv";
-std::string fn13 = "~/amar_ws/Dataset/plan.csv";
-std::string fn14 = "~/amar_ws/Dataset/amcl_pose.csv";
-std::string fn15 = "~/amar_ws/Dataset/tf_odom_map.csv";
-std::string fn16 = "~/amar_ws/Dataset/tf_map_odom.csv";
-std::string fn17 = "~/amar_ws/Dataset/global_costmap_info.csv";
-std::string fn18 = "~/amar_ws/Dataset/global_costmap_data.csv";
-std::string fn19 = "~/amar_ws/Dataset/map_info.csv";
-std::string fn20 = "~/amar_ws/Dataset/map_data.csv";
-std::string fn21 = "~/amar_ws/Dataset/footprints.csv";
+std::string fn1 = "./Dataset/clock.csv";
+std::string fn2 = "./Dataset/odom.csv";
+std::string fn3 = "./Dataset/cmd_vel.csv";
+std::string fn4 = "./Dataset/teb_global_plan.csv";
+std::string fn5 = "./Dataset/teb_local_plan.csv";
+std::string fn6 = "./Dataset/teb_poses.csv";
+std::string fn7 = "./Dataset/teb_markers.csv";
+std::string fn8 = "./Dataset/current_goal.csv";
+std::string fn9 = "./Dataset/obstacles.csv";
+std::string fn10 = "./Dataset/via_points.csv";
+std::string fn11 = "./Dataset/local_costmap_data.csv";
+std::string fn12 = "./Dataset/local_costmap_info.csv";
+std::string fn13 = "./Dataset/plan.csv";
+std::string fn14 = "./Dataset/amcl_pose.csv";
+std::string fn15 = "./Dataset/tf_odom_map.csv";
+std::string fn16 = "./Dataset/tf_map_odom.csv";
+std::string fn17 = "./Dataset/global_costmap_info.csv";
+std::string fn18 = "./Dataset/global_costmap_data.csv";
+std::string fn19 = "./Dataset/map_info.csv";
+std::string fn20 = "./Dataset/map_data.csv";
+std::string fn21 = "./Dataset/footprints.csv";
 
 // odometry global variables
 float odomPositionX = 0.0, odomPositionY = 0.0, odomOrientationZ = 0.0, odomOrientationW = 0.0, odomVelLinX = 0.0, odomVelAngZ = 0.0;
