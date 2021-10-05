@@ -141,7 +141,7 @@ void UpisiNaslove(void)
   // cmd_vel	
   writer3.open(fn3, std::ios::app);
 
-  std::string info = "cmd_vel_lin_x, cmd_vel_ang_z";
+  std::string info = "cmd_vel_lin_x,cmd_vel_ang_z";
   writer3 << info << std::endl;
   
   writer3.close();
